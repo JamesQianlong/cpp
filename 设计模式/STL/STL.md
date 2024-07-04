@@ -3,8 +3,8 @@
 ## 第一讲C++ Standard Library和Standard Template Library是同一个东西吗？
 
 不是 C++标准库>STL,**STL分为六个部件(容器、算法、迭代器、适配器、仿函数、分配器)**，其外的是C++标准库范畴,STL以头文件(Header files)形式呈现  
-**C++标准库的头文件不带副档名.h，例如#include<vector>**  
-**新式的C头文件中不带副档名.h，例如#include<cstdio>**  
+**C++标准库的头文件不带副档名.h**  
+**新式的C头文件中不带副档名.h**  
 **旧式C头文件仍然可用，例如#include<stdio.h>**  
 新式headers内的组件封装于namespace std 可以使用using namespace std或者using std::cout  
 旧式headers内的组件不封装于namespace std  
